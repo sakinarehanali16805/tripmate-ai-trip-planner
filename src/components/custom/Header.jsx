@@ -52,7 +52,7 @@ function Header() {
 
   return (
     <div className="p-3 flex justify-between items-center px-5">
-      <div className="flex items-center gap-1 mx-12">
+      <div className="flex items-center gap-1 mx-2">
         <img src="/logo.png" alt="Logo" className="h-12 w-12" />
         <span className="font-semibold text-xl text-brand-custom-rusty-red">
           <i>TripMate</i>

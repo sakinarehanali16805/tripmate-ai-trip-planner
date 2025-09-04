@@ -214,7 +214,7 @@ function CreateTrip() {
         <h2 className="text-md my-3 font-medium">
           What&apos;s your travel budget?
         </h2>
-        <div className="grid grid-cols-3 gap-5 mt-5">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 mt-5">
           {budgetOptions.map((item, index) => (
             <div
               key={index}
@@ -241,7 +241,7 @@ function CreateTrip() {
         <h2 className="text-md my-3 font-medium">
           Who are you planning to travel with?
         </h2>
-        <div className="grid grid-cols-3 gap-5 mt-5">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-5 mt-5">
           {travelOptions.map((item, index) => (
             <div
               key={index}
@@ -274,7 +274,7 @@ function CreateTrip() {
         </Button>
       </div>
 
-      <Dialog open={openDialog} onOpenChange={setOpenDialog}>
+      <Dialog open={openDialog}>
         <DialogContent>
           <DialogHeader>
             <DialogTitle className="flex items-center gap-3 text-lg font-bold text-brand-custom-rusty-red">

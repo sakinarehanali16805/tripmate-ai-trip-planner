@@ -274,7 +274,7 @@ function CreateTrip() {
         </Button>
       </div>
 
-      <Dialog open={openDialog}>
+      <Dialog open={openDialog} onOpenChange={setOpenDialog}>
         <DialogContent>
           <DialogHeader>
             <DialogTitle className="flex items-center gap-3 text-lg font-bold text-brand-custom-rusty-red">
